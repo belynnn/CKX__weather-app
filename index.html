@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Weather App | Deborah Clerckx</title>
+</head>
+<body>
+    <header>
+        <h1>Weather App using HTML, CSS & JavaScript</h1>
+        <h2>Application retranscripted by Deborah Clerckx</h2>
+        <h3>Application inspired by GreatStack</h3>
+    </header>
+
+    <section class="weather-app">
+        <div class="card">
+            <div class="search">
+                <input type="text" placeholder="Enter city name" spellcheck="false">
+                <button><img src="images/search.png" alt="Search button: you can click en it to validate your search."></button>
+            </div>
+            <div class="error">
+                <p>Invalid city name</p>
+            </div>
+            <div class="weather">
+                <img src="images/rain.png" class="weather-icon" alt="">
+                <p class="temp">8 °C</p>
+                <p class="city">Belgium</p>
+                <div class="details">
+                    <div class="column">
+                        <img src="images/humidity.png" alt="">
+                        <div>
+                            <p class="humidity">64 %</p>
+                            <p>Humidity</p>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <img src="images/wind.png" alt="">
+                        <div>
+                            <p class="wind">32 km/h</p>
+                            <p>Wind Speed</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <h4>CKX APP</h4>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
